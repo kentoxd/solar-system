@@ -78,7 +78,7 @@ canvas {
 .detail-panel {
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 200;
   background: rgba(0, 0, 0, 0.95);
@@ -86,7 +86,7 @@ canvas {
   border-radius: 15px;
   padding: 30px;
   width: 450px;
-  max-height: 800px;
+  max-height: 500px;
   overflow-y: auto;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
 }

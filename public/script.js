@@ -53,7 +53,7 @@ function createOrbitPath(radius, tilt = 0) {
     ));
   }
   const geometry = new THREE.BufferGeometry().setFromPoints(points);
-  const material = new THREE.LineBasicMaterial({ color: 0x444444, transparent: true, opacity: 1 });
+  const material = new THREE.LineBasicMaterial({ color: 0x444444, transparent: true, opacity: 0.3 });
   const orbit = new THREE.Line(geometry, material);
   orbit.rotation.z = tilt;
   scene.add(orbit);
